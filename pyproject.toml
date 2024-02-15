@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "k_graph_kit"
+version = "0.0.1"
+authors = [
+    {name="KpihX", email="kapoivha@gmail.com"}
+]
+maintainers = [
+    {name="KpihX", email="kapoivha@gmail.com"}
+]
+description = "A package to easily deal with graph and their universe!"
+readme = "README.md"
+license = {text = "MIT License"}
+requires-python = ">=3.8"
+keywords = ["graph", "degree", "cycle", "chain", "tree", "Djikstrat", "Euler", "Hamilton"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://pypi.org/project/k_graph_kit/"
+Issues = "https://github.com/KpihX/k_graph_kit/issues"
+Repository = "https://github.com/KpihX/k_graph_kit.git"
